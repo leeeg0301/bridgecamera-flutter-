@@ -1,15 +1,25 @@
+name: bridge_camera_app
+description: 교량 점검 사진 관리 앱
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
-
-  csv: ^6.0.0
-  file_picker: ^8.0.0
-  archive: ^3.6.1
-  path_provider: ^2.1.4
-  path: ^1.9.0
-  share_plus: ^10.0.0
   image_picker: ^1.0.8
-  cupertino_icons: ^1.0.8
+  path_provider: ^2.1.2
+  archive: ^3.4.10
+  share_plus: ^7.2.1
+  uuid: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
 
 flutter:
   uses-material-design: true
