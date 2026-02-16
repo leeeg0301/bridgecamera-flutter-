@@ -1,8 +1,6 @@
 name: bridge_camera_app
 description: 교량 점검 사진 관리 앱
-
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
@@ -16,6 +14,7 @@ dependencies:
   archive: ^3.4.10
   share_plus: ^7.2.1
   uuid: ^4.2.1
+  path: ^1.9.0
 
 dev_dependencies:
   flutter_test:
